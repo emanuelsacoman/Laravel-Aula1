@@ -14,6 +14,9 @@ class DatabaseSeeder extends Seeder
     {
        $this->call([
            FlishtsSeeder::class,
+           AlunoSeeder::class,
+           BibliotecaSeeder::class,
+           PostSeeder::class,
        ]);
     }
 }
