@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
            AlunoSeeder::class,
            BibliotecaSeeder::class,
            PostSeeder::class,
+           ContactsSeeder::class,
        ]);
     }
 }
